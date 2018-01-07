@@ -25,7 +25,7 @@ public class CheckingAccountTest {
 	public void accountTypeTest() {
 		Account checkingAccount = new CheckingAccount();
 		checkingAccount.accountType();
-		assertEquals("Checking Account", outContent.toString());
+		assertEquals("Checking Account\r\n", outContent.toString());
 	}
 
 	@After
